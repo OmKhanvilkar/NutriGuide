@@ -85,7 +85,7 @@ const About = () => {
       {loading && (
         <>
           <div className="flex mt-20 justify-center align-middle">
-            Genearting Diet Plan for You Please Wait....
+            Generating Diet Plan for You Please Wait....
           </div>
           <div className="flex justify-center mt-5">
             <div className="ml-1.5 h-8 w-8 border-t-cyan-300 border-t-3 rounded-4xl animate-spin"></div>
