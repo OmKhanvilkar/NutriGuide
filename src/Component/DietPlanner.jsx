@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import React from 'react'
 
 const About = () => {
@@ -9,6 +9,8 @@ const About = () => {
 
   const createInput = async () => {
     let input = details + " " + goal;
+
+    // Add API either it won't gonna provide You a diet Plan in Authorization
 
     try {
       setloading(true)
